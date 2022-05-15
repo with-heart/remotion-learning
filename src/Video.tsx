@@ -1,4 +1,5 @@
 import {Composition} from 'remotion';
+import {GrowLove} from './GrowLove';
 import {HelloWorld} from './HelloWorld';
 import {Logo} from './HelloWorld/Logo';
 import {Subtitle} from './HelloWorld/Subtitle';
@@ -7,6 +8,14 @@ import {Title} from './HelloWorld/Title';
 export const RemotionVideo: React.FC = () => {
 	return (
 		<>
+			<Composition
+				id="GrowLove"
+				component={GrowLove}
+				durationInFrames={120}
+				fps={30}
+				width={1920}
+				height={1080}
+			/>
 			<Composition
 				id="HelloWorld"
 				component={HelloWorld}
