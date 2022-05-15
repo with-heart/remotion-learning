@@ -9,7 +9,7 @@
 		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
 	},
 	"repository": {},
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"dependencies": {
 		"@remotion/bundler": "^3.0.0",
 		"@remotion/cli": "^3.0.0",
